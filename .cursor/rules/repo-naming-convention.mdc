@@ -1,0 +1,27 @@
+---
+description: Git repository naming convention for DScover projects
+alwaysApply: true
+---
+
+# Repository Naming Convention
+
+## Format
+```
+[project_name]-[organization_name]-[type]
+```
+
+## Rules
+- `project_name`: use `_` to connect words within the name
+- `organization_name`: organization or team name (lowercase)
+- `type`: `study`, `project`, `research`, `course`, `competition` etc.
+- All lowercase, use `-` between segments
+
+## Examples
+```
+price_prediction-dacon-competition   ✅
+youtube_age_analysis-dscover-research ✅
+data_structure-skku-course           ✅
+python_crawling-personal-study       ✅
+
+price-prediction-dacon-competition   ❌ (spaces in project_name should use _)
+```
