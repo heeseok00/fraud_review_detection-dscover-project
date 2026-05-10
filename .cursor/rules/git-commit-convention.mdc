@@ -1,0 +1,47 @@
+---
+description: Git commit message convention for DScover GNN project
+alwaysApply: true
+---
+
+# Git Commit Message Convention
+
+## Format
+```
+<type>: <subject>
+
+<body> (optional)
+<footer> (optional)
+```
+
+## Types
+- `init` — initial project setup
+- `feat` — new feature
+- `fix` — bug fix
+- `docs` — documentation
+- `refactor` — code structure improvement
+- `style` — formatting (no logic change)
+- `test` — test code
+- `chore` — config / dependencies
+- `perf` — performance improvement
+- `ci` — CI/CD
+
+## Rules
+- Subject ≤ 50 characters
+- Use present tense (Add, Fix, Update)
+- Be specific about what changed
+- One commit = one change
+- No vague messages (`update`, `fix`, `change` ❌)
+
+## Example
+```
+feat: Add GNN-based link prediction model
+
+- Implement GraphSAGE encoder
+- Add training loop with early stopping
+- Log metrics with wandb
+```
+
+## Bad Examples
+- `fix` ❌ (no subject)
+- `update code` ❌ (vague)
+- `Fixed the bug and also added new feature` ❌ (multiple changes)
