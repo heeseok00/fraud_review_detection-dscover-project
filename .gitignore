@@ -53,3 +53,7 @@ wandb/
 # Secrets
 *.env
 secrets.json
+
+# 기타자료 (참고 문서, 임시 파일)
+기타자료/
+Untitled*.ipynb
