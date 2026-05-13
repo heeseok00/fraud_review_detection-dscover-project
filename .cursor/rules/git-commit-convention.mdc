@@ -45,3 +45,10 @@ feat: Add GNN-based link prediction model
 - `fix` ❌ (no subject)
 - `update code` ❌ (vague)
 - `Fixed the bug and also added new feature` ❌ (multiple changes)
+
+## Auto-commit Rule
+작업 중 코드 변경이 발생할 때마다:
+1. 변경 내용을 파악하여 위 컨벤션에 맞는 커밋 메시지를 자동 생성
+2. `git add` → `git commit` → `git push` 순으로 자동 실행
+3. 변경 성격에 맞는 `type` 선택 (feat/fix/refactor/chore 등)
+4. 사용자가 별도로 요청하지 않아도 파일 수정 후 바로 커밋&푸시 적용
